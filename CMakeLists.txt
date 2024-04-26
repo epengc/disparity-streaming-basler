@@ -1,0 +1,6 @@
+cmake_mininum_required(VERSION 3.2.2)
+project(disparity_streaming_basler VERSION 0.0.1)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+add_subdirectory(live_streaming_cpu)
+#add_subdirectory(live_streaming_gpu)
